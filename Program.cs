@@ -4,7 +4,8 @@ namespace TesteCalculadora
 {
     class Program
     {
-        static int option = 0, exit = -999;
+        static int option = 0;
+        static const int exit = -999;
         static int n1 = 0, n2 = 0, res = 0;
         static void Main(string[] args)
         {
